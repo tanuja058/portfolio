@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanuja Pawar | Data Analyst Intern</title>
+
+  <!-- Font Awesome for Photo Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    /* HERO */
+    .hero {
+      background: #ffffff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    /* PROFILE ICON */
+    .profile-icon {
+      width: 130px;
+      height: 130px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      background: #e9f2ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .profile-icon i {
+      font-size: 55px;
+      color: #007bff;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    .role {
+      color: #555;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .skill-tags span {
+      display: inline-block;
+      background: #e9f2ff;
+      color: #0056b3;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 8px;
+      display: inline-block;
+    }
+
+    .primary-btn {
+      background: #007bff;
+      color: white;
+    }
+
+    .secondary-btn {
+      border: 1px solid #007bff;
+      color: #007bff;
+    }
+
+    /* SECTIONS */
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      border-bottom: 3px solid #007bff;
+      display: inline-block;
+    }
+
+    /* PROJECTS */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    .tools {
+      font-size: 14px;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: 500;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ffffff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+
+    <div class="profile-icon">
+      <i class="fa-solid fa-user"></i>
+    </div>
+
+    <h1>Tanuja Pawar</h1>
+    <p class="role">Aspiring Data Analyst | Data Analyst Intern</p>
+
+    <div class="skill-tags">
+      <span>Excel</span>
+      <span>SQL</span>
+      <span>Power BI</span>
+      <span>Python (Basics)</span>
+    </div>
+
+    <div class="buttons">
+      <a href="#projects" class="primary-btn">View Projects</a>
+      <a href="#" class="secondary-btn">Download Resume</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>About Me</h2>
+    <p class="about-text">
+      I am a student aspiring data analyst seeking an internship where I can apply my
+      skills in Excel, SQL, and Power BI to analyze data and generate meaningful insights
+      while learning from real-world business problems.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>Sales Performance Dashboard</h3>
+        <p class="tools">SQL • Power BI</p>
+        <p>
+          Analyzed sales data to identify top-performing regions and products.
+          Found that 20% of products contributed to 65% of total revenue.
+        </p>
+        <div class="links">
+          <a href="#">GitHub</a>
+          <a href="#">Dashboard</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Customer Churn Analysis</h3>
+        <p class="tools">Python • Excel</p>
+        <p>
+          Cleaned and analyzed customer data to identify churn drivers such as
+          contract type and monthly charges.
+        </p>
+        <div class="links">
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>HR Attrition Analysis</h3>
+        <p class="tools">Excel • Power BI</p>
+        <p>
+          Studied employee data to identify attrition trends and visualized insights
+          using interactive dashboards.
+        </p>
+        <div class="links">
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact">
+    <h2>Contact: 7499021970</h2>
+    <p>Email: pawartanuja013@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/tanuja-pawar-714757359/">LinkedIn</a> |
+      <a href="https://github.com/tanuja058">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Tanuja Pawar
+  </footer>
+
+</body>
+</html>
